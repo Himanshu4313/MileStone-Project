@@ -32,6 +32,7 @@
 
         <div class="AddButton">
           <span id="AddText">AddBlog</span>
+
           <button id="AddBtn">
             <i class="fa-regular fa-plus"></i>
           </button>
@@ -41,6 +42,41 @@
     <!-- Blog Page -->
     <section class="BlogSection">
       <div id="displayBlog"></div>
+    </section>
+
+    <!-- Add blog section -->
+    <section id="addblog">
+      <div id="addblogContainer">
+        <div id="crossIcon">
+          <i class="fa-solid fa-xmark"></i>
+        </div>
+        <form action="#">
+          <input type="text" id="PostURL" placeholder="Enter Blog Post URL:" />
+          <br />
+          <input
+            type="text"
+            id="BlogTitleInput"
+            placeholder="Enter Blog title:"
+          />
+          <br />
+          <input
+            type="text"
+            id="BlogDescriptionInput"
+            placeholder="Enter Blog Description:"
+          />
+          <br />
+          <textarea
+            name="readMore"
+            id="BlogFullDescription"
+            cols="50"
+            rows="10"
+            placeholder="Write..."
+          ></textarea>
+        </form>
+        <div class="button">
+          <button id="AddBlogBtn">Add Blog</button>
+        </div>
+      </div>
     </section>
     <!-- Link JavaScript -->
     <script src="./index.js"></script>
