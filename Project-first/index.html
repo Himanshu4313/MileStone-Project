@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PWSkill Blogs Page</title>
+    <!-- Link Font style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&family=Poppins:wght@200;300;400&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Link Icon -->
+    <script
+      src="https://kit.fontawesome.com/6a1c2b0a40.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Link CSS Style Sheet -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Project 1 Building PWSkills Blog using HTML, CSS, and JavaScript -->
+
+    <!-- HomePage -->
+    <!-- Header Page -->
+    <header class="Header">
+      <nav class="navbar">
+        <div>
+          <div id="LogoText">PWSkills <span>Blog</span></div>
+        </div>
+
+        <div class="AddButton">
+          <span id="AddText">AddBlog</span>
+
+          <button id="AddBtn">
+            <i class="fa-regular fa-plus"></i>
+          </button>
+        </div>
+      </nav>
+    </header>
+    <!-- Blog Page -->
+    <section class="BlogSection">
+      <div id="displayBlog"></div>
+    </section>
+
+    <!-- Add blog section -->
+    <section id="addblog">
+      <div id="addblogContainer">
+        <div id="crossIcon">
+          <i class="fa-solid fa-xmark"></i>
+        </div>
+        <form action="#">
+          <input type="text" id="PostURL" placeholder="Enter Blog Post URL:"  required/>
+          <br />
+          <input
+            type="text"
+            id="BlogTitleInput"
+            placeholder="Enter Blog title:"
+          />
+          <br />
+          <input
+            type="text"
+            id="BlogDescriptionInput"
+            placeholder="Enter Blog Description:"
+          />
+          <br />
+          <textarea
+            name="readMore"
+            id="BlogFullDescription"
+            cols="50"
+            rows="10"
+            placeholder="Write..."
+          ></textarea>
+        </form>
+        <div class="button">
+          <button id="AddBlogBtn">Add Blog</button>
+        </div>
+      </div>
+    </section>
+    <!-- Link JavaScript -->
+    <script src="./index.js"></script>
+  </body>
+</html>
