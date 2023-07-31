@@ -1,7 +1,79 @@
-*{
-    margin: 0;
-    padding: 0;
-    outline: none;
-    box-sizing: border-box;
-    font-family: 'Manrope', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+}
+
+body {
+  background-color: #090929;
+  color: #ffffff;
+}
+
+.header-container {
+  text-align: center;
+  margin: 10px;
+}
+
+#searchMovieBox {
+  padding: 8px 15px;
+  width: 35vw;
+  font-size: 17px;
+  margin: 17px;
+  border-radius: 9px;
+}
+
+#searchbtn {
+  padding: 10px 30px;
+  border: 0px;
+  border-radius: 10px;
+  background-color: #f3314e;
+  cursor: pointer;
+  color: #ffffff;
+  font-weight: 500;
+}
+#displayMovieCard {
+  padding: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.card {
+  background-color: #060645;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 8px;
+}
+
+.cardImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#movieImage {
+  width: 14rem;
+  height: 14rem;
+  border-radius: 10px;
+}
+
+.card-title {
+  padding: 10px;
+}
+.card-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#watchNowbtn {
+  padding: 8px 79px;
+  border: 0px;
+  border-radius: 10px;
+  background-color: #f3314e;
+  cursor: pointer;
+  color: #ffffff;
+  font-weight: 500;
 }
